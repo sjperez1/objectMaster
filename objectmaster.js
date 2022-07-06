@@ -25,7 +25,7 @@ const pokémon = Object.freeze([
     ]);
 
 const pokemonDividedByThree = pokémon.filter(p => p.id % 3 === 0)
-// console.log(pokemonDividedByThree)
+console.log(pokemonDividedByThree)
 
 const pokemonTypeFire = pokémon.filter(p => p.types == "fire")
 // console.log(pokemonTypeFire)
